@@ -2,28 +2,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 h2{
     font-size: 30px;
 }
-.flexible{
-    display: flex;
-    margin-bottom: 150px;
-}
-.sec-1{
-    margin: 50px 30px 50px 30px;
-}
-.intro{
-    width: 100%;
-    padding: 20px;
-}
-.first-pic{
-    padding: 20px;
-}
-
 .orange-color{
-    color: orange;
+    color: rgb(248, 7, 248);
     font-weight: 700px;
 }
 .grey-color{
@@ -42,9 +27,49 @@ h2{
     border-radius: 20px;
     color: white;
     font-weight: 700;   
+}
+.flexible{
+    display: flex;
+    margin-bottom: 175px;
+}
+.section-1{
+    margin: 50px 30px 50px 30px;
+    background-image: url(middle-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5%;
+}
+.intro{
+    width: 100%;
+    padding: 20px;
+}
+.first-pic{
+    width: 70%;
+    padding: 5px;
+}
+.section-2{
+    margin: 50px 30px 50px 30px;
+    background-image: url(middle.jpg);
+    background-size: 100%;
+}
+.second-pic{
+    width: 70%;
+    padding: 5px;
+}
+.about-me{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.section-3{
+    margin: 50px 30px 50px 30px;
+    text-align: center;
+    padding: 1%;
 
 }
-#sec-4{
+.section-4{
+    
+}
+#sec-5{
     
 }
 .footers{
