@@ -9,11 +9,11 @@ h2{
     text-decoration: none;
 }
 .orange-color{
-    color: rgb(3, 252, 177);
+    color: rgb(245, 11, 186);
     font-weight: 700px;
 }
 .grey-color{
-    color: grey;
+    color: rgb(75, 74, 74);
     font-weight: 700px;
 }
 .white-color{
@@ -23,7 +23,7 @@ h2{
 .button{
     text-align: left;
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(rgb(241, 4, 162),rgb(238, 8, 104));
     padding: 10px 23px;
     border-radius: 20px;
     color: white;
@@ -33,7 +33,7 @@ h2{
     display: flex;
 }
 .section-1{
-    margin: 40px 20px 40px 20px;
+    margin: 10px 20px;
     padding: 5%;
 }
 .intro{
@@ -45,9 +45,10 @@ h2{
     padding: 5px;
 }
 .section-2{
-    margin: 50px 30px 50px 30px;
+    margin: 10px 20px;
     background-image: url(pic/middle.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 .second-pic{
     width: 70%;
@@ -98,6 +99,15 @@ h2{
 .download-app{
     height: 220px;
     width: 220px;
+}
+.download-button{
+    text-align: left;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(241, 4, 162),rgb(238, 8, 104));
+    padding: 3px 5px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700; 
 }
 .app{
     text-decoration: none;
