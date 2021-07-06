@@ -30,7 +30,6 @@ h2{
 }
 .flexible{
     display: flex;
-    margin-bottom: 175px;
 }
 .section-1{
     margin: 50px 30px 50px 30px;
@@ -61,18 +60,33 @@ h2{
     padding-top: 5%;
 }
 .section-3{
-    margin: 50px 30px 50px 30px;
     text-align: center;
-    padding: 1%;
-
 }
 .section-4{
-    padding: 5%;
-    
+
 }
-#sec-5{
-    
+.recipe-title{
+    padding: 15%;
+    width: 80%;
+}
+#section-5{
+    text-align: center;
+    height: 200%;
+    width: 100%;
+    background-color: black;
+}
+.recipe-pic{
+
+}
+.shadow{
+    width: 100%;  
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;  
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px grey;
 }
 .footers{
-    text-align: center;
+    
 }
